@@ -1,0 +1,64 @@
+/* For all css  */
+/* google font poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* end  */
+
+
+
+/* body start */
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.color1{
+    color:#E76F51;
+}
+.color2{
+    color: #E77C40;
+}
+/* body end */
+/* header start */
+.heading{
+    width: inherit;
+    height: 700px;
+    background: #264653;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    
+}
+
+.header-button{
+    color: white;
+    padding:10px 20px;
+    background: #E76F51;
+border-radius: 5px;
+}
+
+/* header end */
+
+/* buyer start */
+
+
+.buyer{
+    width: 149px; 
+    height:149px;
+   margin: 0 auto;
+}
+
+/* indicator design */
+
+.carousel-control-prev-icon{
+    background-color: rgb(215, 175, 238);
+}
+.carousel-control-next-icon{
+    background-color: paleturquoise;
+}
